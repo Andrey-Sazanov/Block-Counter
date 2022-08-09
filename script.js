@@ -14,7 +14,7 @@ btn.addEventListener('click',()=>{
     }
     info.innerHTML = ` Type of block: ${type.value} Amount of Stacks: ${amountOfStacks} Previous blocks : ${localStorage.getItem('block')}`
     localStorage.setItem('block',JSON.stringify(block))
-    console.log(arr)
+    console.log('Где Мой Нос!?')
     env-=1
     if(env==0){
         info.innerHTML = "space ended"
